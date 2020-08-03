@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.yonghu {
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+    position: relative;
+}
+
+.geren {
+    width: 80px;
+    height: 49px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 620px;
+    top: 0px;
+    border: 1px solid lightslategrey;
+}
+
+.qiy {
+    width: 80px;
+    height: 49px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 700px;
+    top: 0px;
+    border: 1px solid lightslategrey;
+}
+
+.register {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+.register>form {
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    /* background: magenta; */
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+
+.register>form>p {
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.register>form>p>label>span {
+    display: inline-block;
+    margin-right: 5px;
+    color: red;
+}
+
+.register>form>p>label {
+    text-align: right;
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.register>form>p>input {
+    height: 20px;
+    width: 180px;
+}
+
+.register>form>.zhuci {
+    text-align: center;
+    margin-right: 150px;
+}
+
+.register>form>.zhuci>input {
+    width: 220px;
+    height: 25px;
+    background: red;
+    border: none;
+    outline-style: none;
+    color: linen;
+}
+
+.register>form>p>.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+
+.register>form>.xieyi {
+    /* width: 220px; */
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.register>form>.xieyi>span {
+    color: lightsalmon;
+}

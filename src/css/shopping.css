@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 头部 */
+
+.top {
+    width: 100%;
+    height: 30px;
+    background: #e3e4e5;
+    border-bottom: solid 1px #ddd;
+}
+
+.top_center {
+    width: 990px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+
+/* log */
+
+.header {
+    width: 100%;
+    height: 97px;
+}
+
+
+/* log中间盒子 */
+
+.header_center {
+    width: 990px;
+    height: 97px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+/* 左边的log */
+
+.header_left {
+    width: 277px;
+    margin: 15px 0 22px;
+    position: relative;
+}
+
+.header_left>b {
+    /* width: 100px;
+    height: 40px; */
+    position: absolute;
+    left: 142px;
+    top: 16px;
+    font-size: 21px;
+    color: rgb(119, 119, 119);
+}
+
+.header_left>a {
+    display: block;
+    width: 134px;
+    height: 42px;
+    background: url(http://misc.360buyimg.com/jdf/1.0.0/unit/global-header/5.0.0/i/jdlogo-201708-@1x.png) no-repeat 0 0;
+    background-size: 134px 42px;
+}
+
+
+/* 右边的搜索框 */
+
+.header_right>form {
+    border: 2px solid #c91623;
+    background: #c91623;
+    height: 24px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.header_right>form>input {
+    border: 0;
+    height: 18px;
+    line-height: 18px;
+    width: 260px;
+    padding: 4px 5px;
+    outline: 0;
+}
+
+.header_right>form>button {
+    width: 48px;
+    height: 24px;
+    background: #c91623;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    outline: 0;
+    border: 0;
+}
+
+
+/* 商品 */
+
+.switch_cart_big {
+    width: 100%;
+    height: 37px;
+}
+
+.switch_cart_center {
+    margin: 0 auto;
+    width: 990px;
+    height: 37px;
+    /* background: #ccc; */
+    margin-top: 10px;
+}
+
+.switch_cart>a {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 0 1px;
+    cursor: pointer;
+    margin: 8px 3px 0 0;
+    text-decoration: none;
+    color: #E2231A;
+}
+
+.switch_cart>strong {
+    font-style: normal;
+    color: #E2231A;
+}
+
+
+/* 选项 */
+
+.cart-thead {
+    width: 100%;
+    height: 43px;
+}
+
+.cart-thead_center {
+    width: 990px;
+    height: 43px;
+    margin: 0 auto;
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+}
+
+
+/* 选项左边的 */
+
+.cart-thead_left {
+    float: left;
+    width: 200px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 12px;
+    color: #666;
+}
+
+.cart-thead_left>.all {
+    float: left;
+    line-height: 43px;
+    margin-left: 10px;
+    margin-right: 80px;
+}
+
+.all>input {
+    vertical-align: middle;
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+
+.cart-thead_left>p {
+    float: left;
+}
+
+
+/* 选项右边的 */
+
+.cart-thead_right {
+    color: #666;
+    font-size: 12px;
+    line-height: 43px;
+    width: 400px;
+    height: 43px;
+    float: right;
+}
+
+.cart-thead_right>p {
+    float: left;
+}
+
+.right_p1 {
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+.right_p2 {
+    margin-right: 120px;
+}
+
+.right_p3 {
+    margin-right: 40px;
+}
+
+
+/* 商家 */
+
+.shopping_list {
+    width: 995px;
+    margin: 0 auto;
+    /* height: 1000px;
+    background: red; */
+}
+
+.merchant {
+    width: 995px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.merchant_left {
+    font-size: 12px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+.merchant_left>input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.merchant_right {
+    width: 80px;
+    height: 24px;
+    position: absolute;
+    left: 412px;
+    top: 7px;
+    background-image: url(http://misc.360buyimg.com/user/cart/css/i/cart-coupon-icons02.png);
+}
+
+
+/* 购物车列表 */
+
+.Reduction {
+    position: relative;
+    width: 995px;
+}
+
+.Reduction>.activity {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    background: #f48719;
+    border: 1px solid #f48719;
+    color: #fff;
+    padding: 1px 10px;
+    height: 16px;
+    line-height: 16px;
+    margin: 7px 10px 0 13px;
+}
+
+.activity1 {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.activity1>b {
+    color: red;
+    margin-right: 10px;
+}
+
+.Reduction>i {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.Reduction>em {
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 6px;
+    left: 13px;
+    bottom: 5px;
+    background-image: url(http://misc.360buyimg.com/user/cart/css/i/cart-line-02.png);
+}
+
+.Reduction_list {
+    position: relative;
+    width: 995px;
+    height: 120px;
+    background: #fff4e8;
+}
+
+.Reduction_list>input {
+    position: absolute;
+    left: 12px;
+    top: 16px;
+}
+
+.description>img {
+    position: absolute;
+    left: 50px;
+    top: 12px;
+}
+
+.product {
+    position: absolute;
+    left: 146px;
+    top: 15px;
+    font-size: 12px;
+    width: 200px;
+    height: 56px;
+}
+
+.product_description {
+    position: absolute;
+    left: 357px;
+    top: 15px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.promotion {
+    position: absolute;
+    left: 600px;
+    top: 25px;
+    font-size: 12px;
+}
+
+.number {
+    position: absolute;
+    left: 689px;
+    top: 26px;
+}
+
+.number>input {
+    width: 60px;
+    height: 20px;
+}
+
+.number>a {
+    text-decoration: none;
+    width: 10px;
+    height: 21px;
+    background: #ddd;
+}
+
+.number>a:first-child {
+    position: absolute;
+    right: 53px;
+    top: 2px;
+}
+
+.number>a:nth-child(3) {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.Number_big {
+    position: absolute;
+    font-size: 14px;
+    right: 117px;
+    top: 25px;
+    top: 25px;
+    color: rgb(119, 119, 119);
+}
+
+.del {
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    color: rgb(29, 28, 28);
+}
+
+
+/* 全选删除 */
+
+.shopping_bottom {
+    margin: 0 auto;
+    width: 995px;
+    height: 50px;
+    border: 1px dotted #ccc;
+}
+
+.shopping_bottom>.shopping_bottom_left {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 50px;
+    float: left;
+}
+
+.shopping_bottom_left>span:nth-child(5) {
+    font-size: 16px;
+    color: black;
+}
+
+.shopping_bottom>.shopping_bottom_right {
+    margin-left: 10px;
+    display: flex;
+    font-size: 12px;
+    line-height: 50px;
+    float: right;
+}
+
+.shopping_bottom_right>p {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.shopping_bottom_right>button {
+    width: 100px;
+    height: 50px;
+    background: red;
+    color: #fff;
+    outline-style: none;
+    border: 0;
+    font-size: 18px;
+}
